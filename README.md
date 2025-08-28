@@ -57,7 +57,7 @@ We will evaluate your submission based on:
 
 **📹 Tab Animation**  
 
-![Tab Animation](tab-animation.mp4)  
+![Tab Animation](tab-animation.gif)  
 
 ---
 
