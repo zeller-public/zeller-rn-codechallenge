@@ -75,7 +75,7 @@ We will evaluate your submission based on:
 
 1. Ensure your project includes:  
    - A clear **README** with setup and run instructions.  
-   - Any necessary environment files or example configs (e.g., `.env.example`).  
+   - Any necessary environment, keystore files or example configs (e.g., `.env.example`, `debug.keystore`).  
    - **Tests** and instructions on how to run them.  
 2. Make sure your code runs without errors on a clean install using:  
    ```bash
