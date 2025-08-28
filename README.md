@@ -22,6 +22,11 @@ We will evaluate your submission based on:
 ### **User Management**
 - Add new users and save them to the local database. *(No API mutation is required.)*  
 - Update and delete users from the local database.  
+- **Add validation to the form**:  
+  - Name should not be empty.
+  - Name cannot contain special characters (only alphabets and spaces allowed). 
+  - Name must not exceed **50 characters**. 
+  - Email (if included) must be in valid format.  
 
 ### **Filtering & Searching**
 - Filter users by **user type** (`Admin`, `Manager`).  
@@ -29,6 +34,9 @@ We will evaluate your submission based on:
 
 ### **UI & Interaction**
 - Implement **pull-to-refresh** on the user list.  
+- Use **Pager View** (or equivalent) so that the user can swipe between **Admin** and **Manager** lists.  
+- Add **smooth animation for tab changes** (All ↔ Admin ↔ Manager) when swiping between views.  
+- A reference file `tab-animation.mp4` is included in the repository.  
 - Ensure the app runs on **iOS** and **Android**.  
 
 ### **Code Quality & Testing**
@@ -47,6 +55,10 @@ We will evaluate your submission based on:
 
 ![Add User Screen](zeller-add-user.png)  
 
+**📹 Tab Animation**  
+
+![Tab Animation](tab-animation.mp4)  
+
 ---
 
 ## 4. Notes  
@@ -54,6 +66,8 @@ We will evaluate your submission based on:
 - Keep the codebase modular and well-documented so it’s easy to review.  
 - Aim for a production-quality implementation, even though this is a challenge.  
 - Feel free to enhance the **user experience** with **smooth interactions** or **transitions** where appropriate.
+- 💡 Consider using `react-native-pager-view` with animations to implement the Admin ↔ Manager swipe.  
+
 
 ---
 
